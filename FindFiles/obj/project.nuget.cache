@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xLhYrmVzbgftbmakVh5nsDnRUcmvtuflYW19pyrnA68SK9FfT8gEeRKKIB/aIBlOAgcOUhhyT5QwZZDI6gFdbg==",
+  "success": true,
+  "projectFilePath": "/home/elijah/Desktop/dprrv/FindFiles/FindFiles.csproj",
+  "expectedPackageFiles": [
+    "/home/elijah/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}

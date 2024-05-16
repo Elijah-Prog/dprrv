@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TJXDmYr414KhHVUEda8yjoKk0rAUt6PH7sTjfb0GzgABJmK3vuFUUqEp5t0CHqTzpRT2aNWzy+oJQL1R9jeCtw==",
+  "success": true,
+  "projectFilePath": "/home/elijah/Desktop/dprrv/GetJokes/GetJokes.csproj",
+  "expectedPackageFiles": [
+    "/home/elijah/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}

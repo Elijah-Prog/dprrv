@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "e/cyiwQRf5BVVgzMvXWsr2WbcFe+hPdLrOWt9DNUg6oYU+67oMELLuI3Lwhux1MHGV7GhpUJyqe8OeqqH6R5xA==",
+  "success": true,
+  "projectFilePath": "/home/elijah/Desktop/dprrv/HelloDotNet/HelloDotNet.csproj",
+  "expectedPackageFiles": [
+    "/home/elijah/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512",
+    "/home/elijah/.nuget/packages/figgle/0.5.1/figgle.0.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

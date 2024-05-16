@@ -1,0 +1,17 @@
+/home/elijah/Desktop/dprrv/FindFiles/bin/Debug/net8.0/FindFiles
+/home/elijah/Desktop/dprrv/FindFiles/bin/Debug/net8.0/FindFiles.deps.json
+/home/elijah/Desktop/dprrv/FindFiles/bin/Debug/net8.0/FindFiles.runtimeconfig.json
+/home/elijah/Desktop/dprrv/FindFiles/bin/Debug/net8.0/FindFiles.dll
+/home/elijah/Desktop/dprrv/FindFiles/bin/Debug/net8.0/FindFiles.pdb
+/home/elijah/Desktop/dprrv/FindFiles/bin/Debug/net8.0/CommandLine.dll
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.csproj.AssemblyReference.cache
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.GeneratedMSBuildEditorConfig.editorconfig
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.AssemblyInfoInputs.cache
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.AssemblyInfo.cs
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.csproj.CoreCompileInputs.cache
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.csproj.Up2Date
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.dll
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/refint/FindFiles.dll
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.pdb
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/FindFiles.genruntimeconfig.cache
+/home/elijah/Desktop/dprrv/FindFiles/obj/Debug/net8.0/ref/FindFiles.dll

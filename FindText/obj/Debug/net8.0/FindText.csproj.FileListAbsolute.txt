@@ -1,0 +1,17 @@
+/home/elijah/Desktop/dprrv/FindText/bin/Debug/net8.0/FindText
+/home/elijah/Desktop/dprrv/FindText/bin/Debug/net8.0/FindText.deps.json
+/home/elijah/Desktop/dprrv/FindText/bin/Debug/net8.0/FindText.runtimeconfig.json
+/home/elijah/Desktop/dprrv/FindText/bin/Debug/net8.0/FindText.dll
+/home/elijah/Desktop/dprrv/FindText/bin/Debug/net8.0/FindText.pdb
+/home/elijah/Desktop/dprrv/FindText/bin/Debug/net8.0/CommandLine.dll
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.csproj.AssemblyReference.cache
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.GeneratedMSBuildEditorConfig.editorconfig
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.AssemblyInfoInputs.cache
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.AssemblyInfo.cs
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.csproj.CoreCompileInputs.cache
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.csproj.Up2Date
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.dll
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/refint/FindText.dll
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.pdb
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/FindText.genruntimeconfig.cache
+/home/elijah/Desktop/dprrv/FindText/obj/Debug/net8.0/ref/FindText.dll

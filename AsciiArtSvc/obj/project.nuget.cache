@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wLrGwFy/E+SjzIczZ+m46WcQVzJSmmJmjgFNKUX8ptWxCiEl2uSKenu/N3AB6ERLNjWAg3noJTEIr822vHdV0Q==",
+  "success": true,
+  "projectFilePath": "/home/elijah/Desktop/dprrv/AsciiArtSvc/AsciiArtSvc.csproj",
+  "expectedPackageFiles": [
+    "/home/elijah/.nuget/packages/barcodelib/2.4.0/barcodelib.2.4.0.nupkg.sha512",
+    "/home/elijah/.nuget/packages/figgle/0.5.1/figgle.0.5.1.nupkg.sha512",
+    "/home/elijah/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/home/elijah/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/home/elijah/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512",
+    "/home/elijah/.nuget/packages/system.text.json/5.0.2/system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

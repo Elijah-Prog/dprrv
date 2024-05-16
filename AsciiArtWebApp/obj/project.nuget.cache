@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZobkXOCZGRY0rmtBOJQp/B1ARZW3PULG5HUTh0Yo3r63jXFAdufbAbYRog/DmbnTWFL/IKCq94jOO3guiwjeVA==",
+  "success": true,
+  "projectFilePath": "/home/elijah/Desktop/dprrv/AsciiArtWebApp/AsciiArtWebApp.csproj",
+  "expectedPackageFiles": [
+    "/home/elijah/.nuget/packages/figgle/0.5.1/figgle.0.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

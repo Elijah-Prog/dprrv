@@ -1,0 +1,26 @@
+@page
+@model AsciiArtModel
+
+@{
+    ViewData["Title"] = "Ascii Art";
+}
+
+<form method="post">
+  <fieldset>
+    <div>
+      <label for="Text">Text:</label>
+      <input type="text" id="text" name="text" />
+    </div>
+    <div>
+      <label>&nbsp;</label>
+      <input type="submit" value="Submit" class="submit" />
+    </div>
+  </fieldset>
+</form>
+
+@if (Model.ShowRenderedText)
+{
+<pre>
+@Model.RenderedText
+</pre>
+}

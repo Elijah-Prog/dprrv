@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bwXYb1KB7n7miSAuUdZKgflL1tv6QLM9nI5jg7p4qwM=",
+  "Source": "AsciiArtSvc",
+  "BasePath": "_content/AsciiArtSvc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
