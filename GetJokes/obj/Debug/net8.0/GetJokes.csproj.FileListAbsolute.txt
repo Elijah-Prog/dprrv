@@ -9,9 +9,10 @@
 /home/elijah/Desktop/dprrv/GetJokes/bin/Debug/net8.0/GetJokes.dll
 /home/elijah/Desktop/dprrv/GetJokes/bin/Debug/net8.0/GetJokes.pdb
 /home/elijah/Desktop/dprrv/GetJokes/bin/Debug/net8.0/CommandLine.dll
-/home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/GetJokes.csproj.Up2Date
 /home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/GetJokes.dll
 /home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/refint/GetJokes.dll
 /home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/GetJokes.pdb
 /home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/GetJokes.genruntimeconfig.cache
 /home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/ref/GetJokes.dll
+/home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/GetJokes.sourcelink.json
+/home/elijah/Desktop/dprrv/GetJokes/obj/Debug/net8.0/GetJokes.csproj.CopyComplete

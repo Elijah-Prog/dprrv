@@ -35,7 +35,7 @@ var results = Parser.Default.ParseArguments<Options>(args)
           outFile.OpenWrite() :
           Console.OpenStandardOutput();
 
-        FindWithJsonDom(inStream, outStream, options.Category);
+        FindWithSerialization(inStream, outStream, options.Category);
     });
 
 results.WithNotParsed(_ =>
@@ -77,4 +77,35 @@ static void FindWithJsonDom(
     }
 
     writer.WriteEndArray();
+}
+
+//FindWithSerialization method in Program.cs that uses the JsonSerializer to read from the input stream and write to the output stream
+
+static void FindWithSerialization(
+  Stream inStream,
+  Stream outStream,
+  string category
+)
+{
+    var serialOptions = new JsonSerializerOptions
+    {
+        WriteIndented = true,
+        PropertyNameCaseInsensitive = true
+    };
+    var jokes = JsonSerializer.Deserialize<Joke[]>(
+      inStream,
+      serialOptions);
+    JsonSerializer.Serialize(
+      outStream,
+        jokes?.Where(j => string.Equals(
+            category, j.Type,
+            StringComparison.OrdinalIgnoreCase))
+            .Select(j =>
+            new
+            {
+                setup = j.Setup,
+                punchline = j.Punchline
+            })
+            .ToArray(),
+        serialOptions);
 }
