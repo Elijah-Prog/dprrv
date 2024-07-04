@@ -1,31 +1,30 @@
 ﻿using ManningBooks;
 
-using Microsoft.EntityFrameworkCore; 
+using Microsoft.Data.Sqlite;
 
-/*The DbContext, or database context, is EF Core’s 
-way of knowing about entities and the relationships between them.
-*/
+using var keepAliveConnection = new SqliteConnection(
+    CatalogContext.ConnectionString
+);
 
-using var dbContext = new CatalogContext();
+keepAliveConnection.Open();
 
-//code to test out the relationship between Book and Rating
+CatalogContext.SeedBooks();
 
-var efBook = new Book("EF Core in Action");
-efBook.Ratings.Add(new Rating { Comment = "Great!" });
-efBook.Ratings.Add(new Rating { Stars = 4 });
-dbContext.Add(efBook);
-dbContext.SaveChanges();
+var userRequests = new[] {
+ ".NET in Action",
+ "Grokking Simplicity",
+ "API Design Patterns",
+ "EF Core in Action",
+};
 
-var efRatings = (from b in dbContext.Books
-                 where b.Title == "EF Core in Action"
-                 select b.Ratings
-                ).FirstOrDefault();
+// Modify Program.cs to start all user request at the same time and wait for all to finish
 
-foreach (var book in dbContext.Books
-           .Include(b => b.Ratings))
+var tasks = new List<Task>();
+foreach (var userRequest in userRequests)
 {
-  Console.WriteLine($"Book \"{book.Title}\" has id {book.Id}");
-  book.Ratings.ForEach(r =>
-    Console.WriteLine(
-    $"\t{r.Stars} stars: {r.Comment ?? "-blank-"}"));
+    tasks.Add(
+      CatalogContext.WriteBookToConsoleAsync(userRequest)
+    );
 }
+
+Task.WaitAll(tasks.ToArray());
