@@ -43,5 +43,41 @@ public record Comic
       return null;
     }
   }
-  
+
+}
+
+// GetComicAsync is the GetComic method modified to be asynchronous
+
+public static async Task<Comic?> GetComicAsync(
+  int number,
+  CancellationToken cancellationToken)
+{
+  if (cancellationToken.IsCancellationRequested)
+  {
+    return null;
+  }
+
+  try
+  {
+    var path = number == 0 ? "info.0.json"
+      : $"{number}/info.0.json";
+    var stream = await client.GetStreamAsync(
+      path, cancellationToken);
+
+    return await JsonSerializer.DeserializeAsync<Comic>(
+      stream, cancellationToken: cancellationToken);
+  }
+  catch (AggregateException e)
+    when (e.InnerException is HttpRequestException)
+  {
+    return null;
+  }
+  catch (HttpRequestException)
+  {
+    return null;
+  }
+  catch (TaskCanceledException)
+  {
+    return null;
+  }
 }
